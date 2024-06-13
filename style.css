@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: #F6F6F6;
+    ;
+}
+
+.titulo-destaque {
+    color: #22D4FD;
+}
+
+/* inicialmente, está sendo resetado o CSS para estilizar a página
+pois quebra os padroes já definidos nos navegadores, entao teremos
+flexibilidade de posicinar os elementos do nosso agrado. */
+
+/*Esse projeto consiste num portifolio utilizando a pagina inteira
+e se acessarmos o "body" do inspecionar ele informará o quanto
+o elemento body do projeto está utilizando da tela. No caso, queremos que o
+elemento body seja 100% da pagina, entao utilizamos o "height: 100vh"
+ou seja, que a altura maxima do body será equivalente a tela toda. */
+
+/*Para garantir que nenhum elemento fique fora dessa tela, aplicamos
+o "box-sizing: border-box".
+essa é uma ótima prática para aplicar em todos os projetos que criarem, 
+caso a intenção seja evitar que a imagem saia do body, ou seja, evitar que o elemento 
+"filho" saia do elemento "pai". */
+
+
+/*Proxima aula
+trilha: Angular: crie aplicações web ágeis
+
+Curso: HTML e CSS: classes, posicionamento e flexbox
+Aula: 2 temporada, aula 5 flexbox */
